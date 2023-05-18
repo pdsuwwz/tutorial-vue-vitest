@@ -1,0 +1,32 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Test FetchDemo > fetch 数据 + 渲染列表 1`] = `
+"<div>
+  <h2>Hello</h2>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul><button>Fetch Data</button>
+</div>"
+`;
+
+exports[`Test FetchDemo > item 点击测试 1`] = `
+"<div>
+  <h2>Hello</h2>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul><button>Fetch Data</button>
+</div>"
+`;
